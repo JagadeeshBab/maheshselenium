@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HMS_Login]">
+  <parameter name="password" value="admin"/>
+  <parameter name="username" value="admin"/>
+  <test name="Login_mahesh(failed)">
+    <parameter name="password" value="mahesh"/>
+    <parameter name="username" value="mahesh"/>
+    <classes>
+      <class name="TestNG.HMS_Login_XML">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG.HMS_Login_XML -->
+    </classes>
+  </test> <!-- Login_mahesh(failed) -->
+</suite> <!-- Failed suite [HMS_Login] -->
